@@ -1,0 +1,18 @@
+[package]
+name = "time-cap"
+version = "1.0.0"
+authors = []
+
+[addresses]
+time_cap_addr='a94d7dc8209a54974fb8731aae23a2561a9dc674062e6fdfb553ebd2e6a2e407'
+
+
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
